@@ -1,7 +1,8 @@
 # 🔧 Rust OS – A Minimal Operating System in Rust
 
 ## 👨‍💻 Team Members
-	•	Manu – Systems Developer
+
+    •	Manu – Systems Developer
 	•	Ayush – Memory & Process Management
 	•	Manish – Bootloader & Architecture
 	•	Adnan – Debugging & Optimization
@@ -22,6 +23,7 @@ Welcome to **Rust OS**, a hobby operating system built from scratch using the [R
 This is a fun and educational project where we’re building a simple operating system to understand how computers work at the lowest levels. From bootloaders to kernels, we're doing it all ourselves — the Rust way!
 
 Our goals:
+
 - Learn low-level programming concepts
 - Understand how operating systems manage memory, processes, and hardware
 - Build a working minimal OS using Rust, without standard libraries
@@ -50,3 +52,4 @@ cargo bootimage
 
 # Run it using QEMU
 qemu-system-x86_64 -drive format=raw,file=target/x86_64-blog_os/debug/bootimage-rust-os.bin
+```

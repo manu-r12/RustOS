@@ -1,0 +1,14 @@
+[package]
+name = "rust-os"
+version = "0.1.0"
+authors = ["Manu, Ayush, Manish, Adnan"]
+edition = "2021"
+
+[dependencies]
+bootloader = "0.9.23"
+
+[build-dependencies]
+bootimage = "0.10.3"
+
+[package.metadata.bootimage]
+default-target = "x86_64-blog_os.json"
