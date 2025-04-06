@@ -1,5 +1,20 @@
 # 🔧 Rust OS – A Minimal Operating System in Rust
 
+## 👨‍💻 Team Members
+	•	Manu – Systems Developer
+	•	Ayush – Memory & Process Management
+	•	Manish – Bootloader & Architecture
+	•	Adnan – Debugging & Optimization
+
+📚 Resources We’re Using
+	•	Phil Opp’s Writing an OS in Rust
+	•	Rust OSDev GitHub
+	•	Rust official documentation
+
+💡 Inspiration
+
+This project is inspired by curiosity and a shared interest in how systems work under the hood. We aim to not only build but to understand every piece of it.
+
 Welcome to **Rust OS**, a hobby operating system built from scratch using the [Rust programming language](https://www.rust-lang.org/). This project is our deep dive into systems programming, memory management, and low-level architecture.
 
 ## 🚀 About the Project
