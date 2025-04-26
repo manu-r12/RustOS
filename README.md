@@ -1,4 +1,6 @@
-# 🔥 Rust OS – A Hobby Operating System in Rust
+# 🔥 Rust OS 
+![image](https://github.com/user-attachments/assets/4d5451a8-a2a4-4473-b749-3182121ca05a)
+
 
 ## 👨‍💻 Team Members
 
