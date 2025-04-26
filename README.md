@@ -1,39 +1,57 @@
-# 🔧 Rust OS – A Minimal Operating System in Rust
+# 🔥 Rust OS – A Hobby Operating System in Rust
 
 ## 👨‍💻 Team Members
 
-    •	Manu – Systems Developer
-	•	Ayush – Memory & Process Management
-	•	Manish – Bootloader & Architecture
-	•	Adnan – Debugging & Optimization
+- Manu – Systems Developer
+- Ayush – Memory & Process Management 
+- Manish – Bootloader & Architecture
+- Adnan – Debugging & Optimization
 
-📚 Resources We’re Using
-	•	Phil Opp’s Writing an OS in Rust
-	•	Rust OSDev GitHub
-	•	Rust official documentation
+---
 
-💡 Inspiration
+## 📚 Resources We’re Using
 
-This project is inspired by curiosity and a shared interest in how systems work under the hood. We aim to not only build but to understand every piece of it.
+- Philipp Oppermann’s [Writing an OS in Rust](https://os.phil-opp.com/)
+- Rust OSDev GitHub
+- Rust Official Documentation
 
-Welcome to **Rust OS**, a hobby operating system built from scratch using the [Rust programming language](https://www.rust-lang.org/). This project is our deep dive into systems programming, memory management, and low-level architecture.
+---
+
+## 💡 Inspiration
+
+This project is fueled by our curiosity to deeply understand how systems work under the hood.  
+We aim not only to **build** but to **truly understand** every piece of the stack — from booting the hardware to managing processes and memory.
+
+---
 
 ## 🚀 About the Project
 
-This is a fun and educational project where we’re building a simple operating system to understand how computers work at the lowest levels. From bootloaders to kernels, we're doing it all ourselves — the Rust way!
+**Rust OS** is a fully handcrafted operating system project, built completely from scratch using the [Rust programming language](https://www.rust-lang.org/).  
+We have successfully completed all major components of the blog_os tutorial and are now taking the next steps: **extending the OS** with advanced features like a **basic graphical interface** and a **simple filesystem**.
 
-Our goals:
+Our journey so far:
+- Bootstrapped with a custom bootloader
+- Set up memory management (heap, paging)
+- Implemented interrupt handling and basic multitasking
+- Built dynamic memory allocation without a standard library
+- Added process/task switching and timer interrupts
 
-- Learn low-level programming concepts
-- Understand how operating systems manage memory, processes, and hardware
-- Build a working minimal OS using Rust, without standard libraries
+### 📈 Current Focus
+We are now extending the operating system with:
+- 🖥️ **Basic GUI:** Framebuffer graphics, simple windows, mouse cursor
+- 📂 **Simple Filesystem:** In-memory filesystem with basic file operations
+
+---
 
 ## 🧠 Tech Stack
 
 - **Language:** Rust
 - **Bootloader:** [bootimage](https://github.com/rust-osdev/bootimage)
-- **Tooling:** QEMU for emulation, Cargo for building
+- **Tooling:** QEMU for virtualization, Cargo for building
 - **Architecture:** x86_64
+- **Framework:** no_std environment
+
+---
 
 ## 🛠️ How to Build and Run
 
@@ -52,4 +70,3 @@ cargo bootimage
 
 # Run it using QEMU
 qemu-system-x86_64 -drive format=raw,file=target/x86_64-blog_os/debug/bootimage-rust-os.bin
-```
