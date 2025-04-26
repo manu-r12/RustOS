@@ -1,5 +1,7 @@
 # 🔥 Rust OS 
-![image](https://github.com/user-attachments/assets/4d5451a8-a2a4-4473-b749-3182121ca05a)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4d5451a8-a2a4-4473-b749-3182121ca05a" alt="Rust OS Logo" width="400"/>
+</p>
 
 
 ## 👨‍💻 Team Members
