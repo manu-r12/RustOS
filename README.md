@@ -1,10 +1,10 @@
-# 🔥 Rust OS 
+#  Rust OS 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4d5451a8-a2a4-4473-b749-3182121ca05a" alt="Rust OS Logo" width="400"/>
+  <img src="https://github.com/user-attachments/assets/4d5451a8-a2a4-4473-b749-3182121ca05a" alt="Rust OS Logo" width="200"/>
 </p>
 
 
-## 👨‍💻 Team Members
+## Team Members
 
 - Manu – Systems Developer
 - Ayush – Memory & Process Management 
@@ -13,7 +13,7 @@
 
 ---
 
-## 📚 Resources We’re Using
+## Resources We’re Using
 
 - Philipp Oppermann’s [Writing an OS in Rust](https://os.phil-opp.com/)
 - Rust OSDev GitHub
@@ -21,14 +21,14 @@
 
 ---
 
-## 💡 Inspiration
+## Inspiration
 
 This project is fueled by our curiosity to deeply understand how systems work under the hood.  
 We aim not only to **build** but to **truly understand** every piece of the stack — from booting the hardware to managing processes and memory.
 
 ---
 
-## 🚀 About the Project
+##  About the Project
 
 **Rust OS** is a fully handcrafted operating system project, built completely from scratch using the [Rust programming language](https://www.rust-lang.org/).  
 We have successfully completed all major components of the blog_os tutorial and are now taking the next steps: **extending the OS** with advanced features like a **basic graphical interface** and a **simple filesystem**.
@@ -40,14 +40,14 @@ Our journey so far:
 - Built dynamic memory allocation without a standard library
 - Added process/task switching and timer interrupts
 
-### 📈 Current Focus
+###  Current Focus
 We are now extending the operating system with:
 - 🖥️ **Basic GUI:** Framebuffer graphics, simple windows, mouse cursor
 - 📂 **Simple Filesystem:** In-memory filesystem with basic file operations
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 - **Language:** Rust
 - **Bootloader:** [bootimage](https://github.com/rust-osdev/bootimage)
@@ -57,7 +57,7 @@ We are now extending the operating system with:
 
 ---
 
-## 🛠️ How to Build and Run
+## How to Build and Run
 
 > Prerequisites: Rust nightly, QEMU, bootimage
 
