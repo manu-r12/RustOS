@@ -52,7 +52,7 @@ We are now extending the operating system with:
 - **Language:** Rust
 - **Bootloader:** [bootimage](https://github.com/rust-osdev/bootimage)
 - **Tooling:** QEMU for virtualization, Cargo for building
-- **Architecture:** x86_64
+- **Architecture:** x86_64, arm (coming soon)
 - **Framework:** no_std environment
 
 ---
